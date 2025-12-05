@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trouvez le mot de passe</title>
+  <link rel="stylesheet" href="./src/css/81.css">
+</head>
+<body>
+  <header>
+    <h1>04- L'ordinateur</h1>
+  </header>
+  <main>
+    <figure>
+      <div class="conteneur">
+        <img src="./assets/img/vielle ordi-avec bebe.png" alt="" />
+        <form>
+          <input id="desc" type="Descpriton" placeholder="Mot de passe">
+        </form>
+        <script>
+          const input = document.getElementById("desc");
+        
+          input.addEventListener("keydown", (e) => {
+            
+            if (e.key === "Enter") {
+              e.preventDefault();
+        
+              if (input.value.trim().toLowerCase() === "absolu") {
+                
+                window.location.href = "le-mot-de-passe=absolu.html";
+              } else {
+                
+                alert("Mauvais mot de passe");
+              }
+            }
+          });
+        </script>
+
+        <audio controls src="./assets/audio/spectrogramme.wav"></audio>
+
+        <figcaption>Vous devez trouver le mot de passe de l'ordinateur, mais regardez, le détective a laissé un audio.
+          Peut être qu'il vous sera utile.</figcaption>
+      </div>
+    </figure>
+    <details>
+      <summary>Indices</summary>
+      <p>Téléchargez le fichier audio et regardez son nom</p>
+    </details>
+  </main>
+</body>
+
+</html>

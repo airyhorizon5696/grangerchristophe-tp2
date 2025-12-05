@@ -1,0 +1,66 @@
+
+
+/* TITRE */
+h1 {
+    font-size: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-top: 4rem;
+    text-align: center;
+    color: #8ee89d; /* vert doux */
+}
+
+/* PARAGRAPHE */
+p {
+    display: block;
+    background-color: rgba(0,0,0,0.55);
+    margin: 4rem auto;
+    padding: 2rem 4rem;
+    max-width: 900px;
+    line-height: 1.8;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+}
+
+/* BODY GÉNÉRAL */
+body {
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin: 2rem;
+    text-align: center;
+    color: #f2fdf4; 
+    background-image: url(); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0f1a0f;
+}
+
+/* BOUTON RESTART */
+.bouton-restart {
+    display: inline-block;
+    margin-top: 6rem;
+    padding: 1.2rem 3rem;
+    font-size: 2rem;
+    color: #e8fff0; 
+    
+    text-decoration: none;
+    border: 2px solid #52c46b;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.45);
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+
+    box-shadow:
+        0 0 12px rgba(82, 196, 107, 0.4),
+        inset 0 0 8px rgba(82, 196, 107, 0.3);
+}
+
+
+.bouton-restart:hover {
+    background: #55d477;
+    color: #0d1b0f;
+    
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+body{
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    border-top: 1px solid transparent;
+    color: #e1ebeb;
+    background-image: url(../../assets/img/ChatGPT\ Image\ 1\ déc.\ 2025\,\ 15\ h\ 09\ min\ 41\ s.png);
+    background-size: cover;
+}
+
+.conteneur{
+    border-radius: 0.75vw;
+    box-shadow: 0 0.25rem 1rem 0.1rem  black;
+    border: 2px solid rgba(255, 255, 255, 0.459);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    text-align: center;
+    max-width: 900px;
+    max-height: 900px;
+    
+}
+
+figure figcaption { 
+    border-radius: 0  0  0.75vw 0.75vw;
+    background-color:rgb(87, 76, 63);
+    padding: 1rem 0;
+    color: #e1ebeb;
+    font-style: italic;
+    font-size: 27px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+summary{
+    width: 300px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 23px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+summary:hover{
+    color: rgb(221, 46, 46);
+}
+details p{
+    font-size: 1.5rem;
+    width: 500px;
+    font-weight: 900;
+    text-align: center;
+    margin: auto;
+}
+img{
+    border-radius: 0.75vw 0.75vw  0 0 ;
+    max-width: 100%;
+    display: block;
+    max-height: 100%;
+}
