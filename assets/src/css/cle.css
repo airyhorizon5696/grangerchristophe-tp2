@@ -30,7 +30,7 @@ body{
     min-height: 100vh;
     border-top: 1px solid transparent;
     color: #e1ebeb;
-    background-image: url(../../assets/img/background\ sombre.jpg);
+    background-image: url(../../img/background\ sombre.jpg);
     background-size: cover;
 }
 

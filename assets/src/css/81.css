@@ -18,7 +18,7 @@ body{
     min-height: 100vh;
     border-top: 1px solid transparent;
     color: #1B1807;
-    background-image: url(../../assets/img/background-gris-bleu.png);
+    background-image: url(../../img/background-gris-bleu.png);
     background-size: cover;
 }
 
